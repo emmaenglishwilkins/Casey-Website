@@ -13,11 +13,11 @@ import DraggablePhoto from './components/draggablePhoto';
 export default function App() {
   return (
     <View style={styles.container}>
-      <DraggablePhoto source={pic1} initialX={500} initialY={500} />
-      <DraggablePhoto source={pic2} initialX={400} initialY={500} />
-      <DraggablePhoto source={pic3} initialX={300} initialY={500} />
-      <DraggablePhoto source={pic4} initialX={200} initialY={500} />
-      <DraggablePhoto source={pic5} initialX={100} initialY={500} />
+      <DraggablePhoto source={pic1} initialX={100} initialY={200} />
+      <DraggablePhoto source={pic2} initialX={200} initialY={300} />
+      <DraggablePhoto source={pic3} initialX={300} initialY={400} />
+      <DraggablePhoto source={pic4} initialX={400} initialY={500} />
+      <DraggablePhoto source={pic5} initialX={500} initialY={600} />
       <DraggablePhoto source={pic6} initialX={0} initialY={500} />
     </View>
   );
